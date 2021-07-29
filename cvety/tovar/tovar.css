@@ -1,0 +1,47 @@
+#block {
+	box-shadow:  0 0 15px 15px rgba(221, 221, 221, 221) ;
+	text-align: center;
+	border-radius: 20px;
+	margin-left: 45px;
+	margin-bottom: 40px;
+	background: white;
+	height: 280px;
+	width: 280px;
+	float: left;
+}
+
+#image img {
+	margin: 0px;
+}
+
+#knopka > div > ul{
+	float: left;
+}
+
+
+
+<!-- блок формы отправки -->
+
+.amount {
+	width:70px;
+	margin:30px;
+}
+.amount span {
+	display:inline-block;
+	width:20px;
+	height:20px;
+	background:#ededed;
+	cursor:pointer;
+	text-align:center;
+}
+.amount span:hover {
+	background:#dfdfdf;
+}
+.amount input {
+	width:30px;
+	text-align:center;
+}
+
+
+
+

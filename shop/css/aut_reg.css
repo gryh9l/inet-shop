@@ -1,0 +1,52 @@
+.aut_reg_h2{
+    text-align: center;
+    color: grey;
+    font-size: 40px;
+}
+.aut_reg_form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+}
+.aut_reg_form_input{
+    padding-left: 10px;
+    height: 40px;
+    width: 240px;
+    border: 3px solid rgb(255, 0, 0);
+    margin-bottom: 25px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.aut_reg_form_img{
+    border: 1px solid #000;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 15px;
+}
+.aut_reg_form_button{
+    border: 1px solid rgb(255, 162, 162);
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    font-weight: 900;
+    font-size: 15px;
+    background-color: red;
+    color: white;
+    transition: 0.9s; /* для анимации когда уводишь мышку */
+}
+.aut_reg_form_button:hover{
+    background-color: white;
+    color: red;
+    transition: 0.9s;
+}
+.aut_reg_form_error{
+    color: rgb(151, 8, 8);
+    font-weight: 900;
+    font-size: 20px;
+    width: 250px;
+    height: 0px;
+    text-align: center;
+}

@@ -1,0 +1,16 @@
+.div_compl_sugg{
+	text-align: center;
+	border: 1px solid black;
+}
+.div_compl_sugg h2{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.form_compl_sugg{
+	display: inline-block;
+	border: 1px solid black;
+	max-width: 300px;
+}
+.form_compl_sugg input, textarea{
+	margin-bottom: 15px;
+}
